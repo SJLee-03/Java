@@ -33,5 +33,13 @@ public class _02_MultiArrauy {
                 {{}, {}, {}},
                 {{}, {}, {}},
         };
+
+        // 2차원 배열 출력
+        for (int i = 0; i < seats2.length; i++) {
+            for (int j = 0; j < seats2[i].length; j++) {
+                System.out.println(seats2[i][j]);
+            }
+        }
+
     }
 }
